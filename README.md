@@ -1,6 +1,7 @@
 # privacy-policy
 
-Public privacy policy for the [Pizza Driver Log](https://github.com/habboubah/pizza-driver-log) app, hosted via GitHub Pages.
+Public privacy policies for my apps, hosted via GitHub Pages. Each app gets its own folder, with `/de/` for the German translation.
 
-- English: https://habboubah.github.io/privacy-policy/
-- Deutsch: https://habboubah.github.io/privacy-policy/de/
+- [Pizza Driver Log](https://github.com/habboubah/pizza-driver-log)
+  - English: https://habboubah.github.io/privacy-policy/pizza-driver-log/
+  - Deutsch: https://habboubah.github.io/privacy-policy/pizza-driver-log/de/
