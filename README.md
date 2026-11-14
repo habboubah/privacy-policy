@@ -9,6 +9,6 @@ Public privacy policies for my apps, hosted via GitHub Pages. Each app gets its 
   - English: https://habboubah.github.io/privacy-policy/spartopf/
   - Deutsch: https://habboubah.github.io/privacy-policy/spartopf/de/
 - Die einfache Einkaufsliste / The Simple Shopping List (code name Korb)
-  - English: https://habboubah.github.io/privacy-policy/korb/
-  - Deutsch: https://habboubah.github.io/privacy-policy/korb/de/
-  - Shared-list page: https://habboubah.github.io/privacy-policy/korb/share/
+  - English: https://habboubah.github.io/privacy-policy/shopping-list/
+  - Deutsch: https://habboubah.github.io/privacy-policy/shopping-list/de/
+  - Shared-list page: https://habboubah.github.io/privacy-policy/shopping-list/share/
