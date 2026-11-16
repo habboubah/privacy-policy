@@ -12,3 +12,6 @@ Public privacy policies for my apps, hosted via GitHub Pages. Each app gets its 
   - English: https://habboubah.github.io/privacy-policy/shopping-list/
   - Deutsch: https://habboubah.github.io/privacy-policy/shopping-list/de/
   - Shared-list page: https://habboubah.github.io/privacy-policy/shopping-list/share/
+- Fotonest – Fotos aufräumen / Fotonest – Photo Cleanup (code name fotonest)
+  - English: https://habboubah.github.io/privacy-policy/fotonest/
+  - Deutsch: https://habboubah.github.io/privacy-policy/fotonest/de/
