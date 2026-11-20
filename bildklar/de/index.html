@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Datenschutzerklärung — Bildklar KI: Foto Reiniger</title>
+<title>Datenschutzerklärung — Bildklar KI: Fotos aufräumen</title>
 <style>
   :root { color-scheme: light dark; }
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 720px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; color: #1D2427; line-height: 1.6; background: #F7F3EC; }
@@ -24,34 +24,35 @@
 <div class="lang-switch"><a href="../">English</a></div>
 
 <h1>Datenschutzerklärung</h1>
-<p>Ahmad Habboubah hat „Bildklar KI: Foto Reiniger“ entwickelt, eine App, die die Fotos auf deinem iPhone oder Android-Handy ordnet: Sie findet deine Reisen, fast gleiche Fotos und unscharfe Fotos. Diese Seite erklärt, wie die App mit Informationen umgeht.</p>
+<p>Ahmad Habboubah hat „Bildklar KI: Fotos aufräumen“ entwickelt, eine App, die die Fotos auf deinem iPhone oder Android-Handy ordnet: Sie findet deine Reisen, fast gleiche Fotos und unscharfe Fotos. Diese Seite erklärt, wie die App mit Informationen umgeht.</p>
 
 <h2>Kurz gesagt</h2>
 <p>Bildklar arbeitet vollständig auf deinem Gerät. Es gibt kein Konto, keinen Server, keine Analyse und keine Werbung. Deine Fotos, wann und wo sie aufgenommen wurden, und jede Entscheidung, die du in der App triffst, bleiben auf deinem Gerät. Der Entwickler bekommt nichts davon und kann nichts davon sehen.</p>
 
 <h2>Deine Fotos</h2>
 <p>Bildklar bittet um Zugriff auf deine Fotomediathek, denn die ordnet die App. Du kannst ihr Zugriff auf alle Fotos geben oder nur auf ausgewählte („Eingeschränkter Zugriff“ auf dem iPhone, „Fotos auswählen“ ab Android 14) und das jederzeit in den Einstellungen deines Geräts ändern.</p>
-<p>Mit diesem Zugriff liest die App zu jedem Foto: das Aufnahmedatum, den Aufnahmeort (falls das Foto einen hat), Dateigröße und Abmessungen, ob es ein Favorit oder ein Bildschirmfoto ist, und eine kleine Vorschau. Aus der Vorschau berechnet sie auf dem Gerät ein paar Zahlen – wie scharf das Foto ist, Helligkeit und Kontrast und einen kurzen „Fingerabdruck“, an dem fast gleiche Fotos erkannt werden. Auf dem iPhone prüft sie außerdem, wenn du eine Gruppe fast gleicher Fotos öffnest, mit Apples Vision-Framework auf dem Gerät, ob Gesichter scharf und Augen offen sind. Nichts davon verlässt dein Gerät.</p>
+<p>Mit diesem Zugriff liest die App zu jedem Foto: das Aufnahmedatum, den Aufnahmeort (falls das Foto einen hat), Dateigröße und Abmessungen, ob es ein Favorit oder ein Bildschirmfoto ist, und eine kleine Vorschau. Aus der Vorschau berechnet sie auf dem Gerät ein paar Zahlen – wie scharf das Foto ist, Helligkeit und Kontrast und einen kurzen „Fingerabdruck“, an dem fast gleiche Fotos erkannt werden. Auf dem iPhone prüft sie außerdem, wenn du eine Gruppe fast gleicher Fotos öffnest, mit Apples Vision-Framework auf dem Gerät, ob Gesichter scharf und Augen offen sind. Ein in die App eingebautes Bildmodell (SigLIP 2) macht außerdem aus jeder Vorschau eine kurze Zahlenreihe, mit der du nach dem suchen kannst, was auf einem Foto zu sehen ist („Hund“, „Kassenzettel“), und ähnliche Fotos findest. Das Modell läuft nur auf deinem Gerät, auch ohne Internet, und wird nie mit deinen Fotos trainiert. Nichts davon verlässt dein Gerät.</p>
 <p>Die Ortsnamen („Paris, Mai 2026“) stammen aus einer Liste von Orten, die in der App steckt. Die App sucht Orte nicht online nach.</p>
 <p>Fotos, die nur in iCloud liegen, lädt die App nicht herunter; sie nutzt die Vorschau, die dein iPhone schon hat.</p>
 
 <h2>Was die App auf deinem Gerät speichert</h2>
 <ul>
-<li><strong>Einen Zwischenspeicher</strong> mit den oben genannten Angaben und kleinen Vorschaubildern, damit die App nicht jedes Mal deine ganze Mediathek neu lesen muss. Er wird bei Bedarf aus deinen Fotos neu aufgebaut und ist nicht Teil von Geräte-Backups.</li>
-<li><strong>Deine Entscheidungen</strong>: umbenannte, zusammengelegte, geteilte und ausgeblendete Reisen, die von dir gewählten besten Fotos, die Fotos, die du behalten wolltest, und die Alben oder Ordner, die du angelegt hast. Ist das Backup deines Geräts (iCloud-Backup oder das Google-Backup) eingeschaltet, kann diese kleine Datei darin landen. Du kannst sie in der App löschen (Einstellungen → Meine Entscheidungen zurücksetzen).</li>
+<li><strong>Einen Zwischenspeicher</strong> mit den oben genannten Angaben (auch den Zahlen des Bildmodells) und kleinen Vorschaubildern, damit die App nicht jedes Mal deine ganze Mediathek neu lesen muss. Er wird bei Bedarf aus deinen Fotos neu aufgebaut und ist nicht Teil von Geräte-Backups.</li>
+<li><strong>Deine Entscheidungen</strong>: umbenannte, zusammengelegte, geteilte und ausgeblendete Reisen, die von dir gewählten besten Fotos, die Fotos, die du behalten wolltest, und die Alben oder Ordner, die du angelegt hast. Ist das Backup deines Geräts (iCloud-Backup oder das Google-Backup) eingeschaltet, kann diese kleine Datei darin landen. Du kannst sie in der App löschen (Einstellungen → Von vorn anfangen).</li>
 <li><strong>Anzeige-Einstellungen</strong> wie Sprache und helles oder dunkles Design.</li>
 </ul>
 
 <h2>Änderungen an deiner Mediathek</h2>
-<p>Bildklar verändert, löscht oder verschiebt nie von selbst ein Foto, ändert nie den Inhalt eines Fotos und legt keine Kopien an. Nur wenn du es willst:</p>
+<p>Bildklar verändert, löscht oder verschiebt nie von selbst ein Foto und ändert nie den Inhalt eines Fotos. Nur wenn du es willst:</p>
 <ul>
 <li><strong>Alben (iPhone):</strong> Die App legt in deiner Fotos-App ein Album mit den Fotos einer Reise an.</li>
 <li><strong>Ordner (Android):</strong> Nach Androids eigener Rückfrage werden die Fotos einer Reise in einen Ordner verschoben (Bilder/Bildklar/…).</li>
 <li><strong>Löschen:</strong> Nach deiner Bestätigung und der des Systems kommen Fotos in „Zuletzt gelöscht“ (iPhone) bzw. in den Papierkorb (Android). Dort kannst du sie 30 Tage lang wiederherstellen.</li>
+<li><strong>Kleinere Kopien:</strong> Nach deiner Bestätigung speichert die App eine kleinere Kopie eines Videos oder Fotos oder ein Standbild aus einem Live Photo neben dem Original, mit dessen Datum und Ort. Das Original bleibt, bis du es selbst löschst.</li>
 </ul>
 
 <h2>Käufe</h2>
-<p>Das Freischalten von Bildklar ist ein einmaliger Kauf über den App Store oder Google Play. Die Bezahlung wickeln ausschließlich Apple bzw. Google ab; die App fragt nur beim Store nach, ob die Freischaltung gekauft wurde, und merkt sich die Antwort auf deinem Gerät. Der Entwickler bekommt keine Zahlungsdaten. Googles Play-Billing-Bibliothek, über die Android-Apps Käufe abwickeln, kann Google eigene technische Angaben zur Verbindung mit dem Store senden – nach Googles Datenschutzerklärung.</p>
+<p>Im Moment ist in Bildklar alles kostenlos, und nichts ist zu kaufen. Später kann das Freischalten einiger Funktionen ein einmaliger Kauf über den App Store oder Google Play werden. Die Bezahlung wickeln ausschließlich Apple bzw. Google ab; die App fragt nur beim Store nach, ob die Freischaltung gekauft wurde, und merkt sich die Antwort auf deinem Gerät. Der Entwickler bekommt keine Zahlungsdaten. Googles Play-Billing-Bibliothek, über die Android-Apps Käufe abwickeln, kann Google eigene technische Angaben zur Verbindung mit dem Store senden – nach Googles Datenschutzerklärung.</p>
 
 <h2>Dienste Dritter</h2>
 <p>Die App enthält keine Bibliotheken für Analyse, Tracking, Werbung oder Absturzberichte und kein Firebase. Das Betriebssystem deines Geräts und der Store, aus dem du die App hast, können nach ihren eigenen Datenschutzerklärungen übliche Installations-, Kauf- und Diagnosedaten erheben; darauf hat die App keinen Einfluss:</p>
@@ -71,11 +72,11 @@
 
 <h2>Änderungen dieser Datenschutzerklärung</h2>
 <p>Ich kann diese Erklärung ändern, zum Beispiel wenn sich der Umgang der App mit Daten ändert. Änderungen erscheinen auf dieser Seite.</p>
-<p>Gültig ab 16.11.2026.</p>
+<p>Gültig ab 20.11.2026.</p>
 
 <h2>Kontakt</h2>
 <p>Bei Fragen zu dieser Erklärung oder zur App schreib mir an <a href="mailto:ahmad.habboubah@gmail.com">ahmad.habboubah@gmail.com</a>.</p>
 
-<footer>Bildklar KI: Foto Reiniger · Ahmad Habboubah</footer>
+<footer>Bildklar KI: Fotos aufräumen · Ahmad Habboubah</footer>
 </body>
 </html>
