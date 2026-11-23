@@ -15,3 +15,6 @@ Public privacy policies for my apps, hosted via GitHub Pages. Each app gets its 
 - Bildklar KI: Foto Reiniger / Bildklar AI: Photo Cleaner (code name bildklar)
   - English: https://habboubah.github.io/privacy-policy/bildklar/
   - Deutsch: https://habboubah.github.io/privacy-policy/bildklar/de/
+- Tankenblick (code name fuelapp)
+  - English: https://habboubah.github.io/privacy-policy/fuelapp/
+  - Deutsch: https://habboubah.github.io/privacy-policy/fuelapp/de/
