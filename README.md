@@ -18,3 +18,4 @@ Public privacy policies for my apps, hosted via GitHub Pages. Each app gets its 
 - Tankenblick (code name fuelapp)
   - English: https://habboubah.github.io/privacy-policy/fuelapp/
   - Deutsch: https://habboubah.github.io/privacy-policy/fuelapp/de/
+  - Support: https://habboubah.github.io/privacy-policy/fuelapp/support/
